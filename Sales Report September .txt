@@ -1,0 +1,66 @@
+# Sales Report: September 2026
+
+Rows read: 50  
+Rows used: 47  
+Rows skipped: 3
+
+## Total Revenue
+
+Total revenue (KES): 1,317,210.00
+
+## Revenue by Product (KES)
+
+| Product | Revenue (KES) |
+|---|---:|
+| HP 15 Laptop | 389,994.00 |
+| Hisense 43in Smart TV | 272,993.00 |
+| Lenovo Tab M10 | 199,992.00 |
+| Tecno Spark 20 | 161,988.00 |
+| Infinix Hot 40 | 63,996.00 |
+| Samsung Galaxy A15 | 56,997.00 |
+| JBL Go 3 Speaker | 49,491.00 |
+| Anker Power Bank 20000 | 38,691.00 |
+| Xiaomi Redmi Buds | 31,990.00 |
+| Oraimo FreePods | 19,593.00 |
+| USB-C Charger 25W | 19,487.00 |
+| Safaricom Neon Ray | 11,998.00 |
+
+## Top 3 Products
+
+1. HP 15 Laptop – KES 389,994.00
+2. Hisense 43in Smart TV – KES 272,993.00
+3. Lenovo Tab M10 – KES 199,992.00
+
+## High-Value Transactions (≥ KES 50,000)
+
+5 transactions met the threshold.
+
+High-value sales were distributed across four stores:
+
+- Kisumu Mega Plaza: 2
+- Nairobi CBD: 1
+- Westgate: 1
+- Nakuru Westside: 1
+
+## Transaction Revenue Statistics
+
+| Statistic | Amount (KES) |
+|---|---:|
+| Mean | 28,025.74 |
+| Median | 10,998.00 |
+| Minimum | 1,499.00 |
+| Maximum | 259,996.00 |
+
+## Pandas Verification
+
+| Measure | Verification |
+|---|---|
+| Total revenue | MATCH |
+| Revenue by product | MATCH |
+| Top 3 products | MATCH* |
+| Mean | MATCH |
+| Median | MATCH |
+
+The total revenue, mean, median, minimum and maximum were independently checked against Pandas. Revenue-by-product and top-three results can be confirmed through a direct comparison with the grouped Pandas results.
+
+Overall conclusion: The analysis processed 47 valid transactions out of 50 records, generating total revenue of KES 1,317,210. HP 15 Laptop was the leading product by revenue. Five transactions met the high-value threshold. The statistical results agreed with Pandas verification.
